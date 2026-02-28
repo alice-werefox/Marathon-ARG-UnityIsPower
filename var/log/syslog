@@ -1,0 +1,10 @@
+Feb 27 03:15:01 balam-hub CRON[4829]: (root) CMD (/usr/bin/sync-upstream --quiet)
+Feb 27 03:15:03 balam-hub sync-upstream: no upstream available
+Feb 27 06:00:01 balam-hub CRON[4923]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Feb 27 06:00:02 balam-hub logrotate: rotating /var/log/syslog
+Feb 27 12:00:01 balam-hub CRON[5047]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Feb 27 18:00:01 balam-hub CRON[5151]: (root) CMD (/usr/sbin/logrotate /etc/logrotate.conf)
+Feb 28 00:00:01 balam-hub CRON[5218]: (root) CMD (/usr/bin/integrity-check /var/data)
+Feb 28 00:00:14 balam-hub integrity-check: /var/data OK (sha256 verified)
+Feb 28 03:15:01 balam-hub CRON[5313]: (root) CMD (/usr/bin/sync-upstream --quiet)
+Feb 28 03:15:03 balam-hub sync-upstream: no upstream available
